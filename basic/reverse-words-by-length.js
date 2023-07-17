@@ -10,9 +10,9 @@ function reversWords(data) {
   // console.log({ getWords });
 
   const output = getWords.map((word) => {
-    return word.split("").reverse().join(" ");
+    return word.split("").reverse().join("");
   });
 
-  return output;
+  return output.join(" ");
 }
 console.log(reversWords(input));
