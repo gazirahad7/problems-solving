@@ -16,16 +16,7 @@ Input: strs = ["dog","racecar","car"]
 Output: ""
 Explanation: There is no common prefix among the input strings.
 */
-/*
 
- TODO:  1st understand the problem question
- TODO:  2nd thinking
- TODO:  3rd  applying your own logic until the solution
- TODO:  check test case
- TODO:  view the best solutions
- TODO:  try to  optimize your code
-
- */
 const longestCommonPrefix = function (strs) {
   if (strs.length < 0) return "";
   let res = strs[0];
